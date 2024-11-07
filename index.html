@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amninder Singh</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Amninder Singh</h1>
+        <h2>Machine Learning enthusiast / Linux Lover / Human</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.github.com/amnindersingh12"><i class="fab fa-github"></i></a></td>
+                    
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://auth.geeksforgeeks.org/user/amnindersingh1414/articles"><b>gfg</b></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="https://www.linkedin.com/in/amninder-singh-7a918b212/"><i class="fab fa-linkedin"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>Detailed work</h1>
+
+        <!-- 1 . -->
+        <section>
+            <h2>Single Song Player</h2>
+            <p>
+            A music player using javascript, HTML and CSS. In this music player, one can control the rate and pan of the song using two provided sliders.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;p5.js</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+            </div>
+            <a button class="btn_two" href="https://github.com/amnindersingh12/song-player">See Code</button></a>
+        </section>
+
+        <!-- 2 . -->
+        <section>
+        <h2>Shooting Stars</h2>
+            <p>
+                Moving particles made effects like falling stars. One can use this as a screensave while taking break during the Google Meet or in the Zoom Meeting.
+
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;p5.js</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+            </div>
+            <a button class="btn_two" href="https://github.com/amnindersingh12/Shooting-Stars">See Code</button></a>
+        </section>
+
+        <!-- 3 . -->
+        <section>
+        <h2>2pie(a.k.a Tau)</h2>
+            <p>
+                A simple javascript web app using the p5.js to find where did the entered number occured in the original tau(2*pie) sequence. 
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;p5.js</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+            </div>
+            <a button class="btn_two" href="https://github.com/amnindersingh12/two-pie">See Code</button></a>
+        </section>
+
+        <!-- 4 . -->
+        <section>
+            <h2>tic-tac-toe</h2>
+            <p>
+                A simple tic tac toe app, using javascript, HTML and CSS.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;p5.js</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+            </div>
+            <a button class="btn_two" href="https://github.com/amnindersingh12/Colourfull-tic-tac-toe">See Code</button></a>
+        </section>
+
+        <!-- 5 . -->
+        <section>
+        <h2>Flop Atari</h2>
+            <p>
+            Recreated old Atari-breakout using the processing framework.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Processing</div>
+            </div>
+            <a button class="btn_two" href="https://github.com/amnindersingh12/FLop-Atari-breakout">See Code</button></a>
+        </section>
+
+        <!-- 6 . -->
+        <section>
+            <h2>IPL First Innings Score Predictor</h2>
+            <p>
+            Predicting the First inning Scores using the Machine Learning and Scikit-learn  It is Built mainly with Python and Flask, Deployed using Heroku.
+
+   
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Jupyter Notebook</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Flask</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+            </div>
+            <a button class="btn_two" href="https://github.com/amnindersingh12/-First-Innings-Score-Predictor">See Code</button></a>
+        </section>  
+        
+        <!-- 7 . -->
+        <section>
+            <h2>Url Shortner</h2>
+            <p>
+            A Url Shortner using the Flask, the SQLAlchemy and python deployed on heroku.    
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;SQLAlchemy</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Flask</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+            </div>
+            <a button class="btn_two" href="https://github.com/amnindersingh12/url-shortener">See Code</button></a>
+        </section>  
+        
+        <!-- 8 . -->
+        <section>
+            <h2>Text Comparison Tool</h2>
+            <p>
+            A Simple text comparison web app. Here, one can pick two files to be compared and see the words that are same(matched) with one color.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Flask</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+            </div>
+            <a button class="btn_two" href="https://github.com/amnindersingh12/text-comparison-web-app">See Code</button></a>
+        </section> 
+
+        <!-- 9. -->
+
+        <section>
+            <h2>Churn rate prediction</h2>
+            <p>
+            Predicting the churn score for a website based on the features provided in the dataset.It was a hackearth problem (https://www.hackerearth.com/challenges/competitive/hackerearth-machine-learning-challenge-predict-customer-churn/). I got rank 185 out of 4923.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Jupyter Notebook</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+            </div>
+            <a button class="btn_two" href="https://github.com/amnindersingh12/Churn-rate-prediction">See Code</button></a>
+
+        </section>   
+
+        <!--10 . -->
+        <section>
+            <h2>Help to farmers</h2>
+            <p>
+                In this project, we have used machine learning and deep learning technologies to guide and help farmers in their farming process. We provide tools that will recommend the best crop based on the soil condition. Make our best to figure out the disease in plants and the cure of that disease. Suggest appropriate fertilizer according to the recommended crop to get a healthy awesome successful yield.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Flask</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+            </div>
+            <a button class="btn_two" href="https://github.com/amnindersingh12/Help-to-farmers">See Code</button></a>
+        </section> 
+
+        <!--11 . -->
+        <section>
+            <h2>My Portfolio</h2>
+            <p>
+                This portfolio of mine can be counted as project also. 
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+            </div>
+            <a button class="btn_two" href="https://github.com/amnindersingh12/amnindersingh12">See Code</button></a>
+        </section> 
+
+
+        <!--12 . -->
+        <section>
+            <h2>ytspotify</h2>
+            <p>
+                A simple script that takes your spotify playlist and generate a Youtube playlist based on the song in your Spotify playlist.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+                <div><i class="fas fa-circle"></i>&nbsp;GCP</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+            </div>
+            <a button class="btn_two" href="https://github.com/amnindersingh12/spotify_to_yt">See Code</button></a>
+        </section> 
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <h2>about me</h2>
+                <p>
+                    I am a CS undergrad currently pursuing my bachelors from Sardar Beant Singh State University, Gurdaspur.
+                    I have a keen interest in Machine Learning and Deep Learning.  Also in every new technology that is making our lives easier!
+                    I am from Gurdaspur, Punjab.
+                    I have completed my schooling from Goverment Senior Secondary School, Dinanagar.
+                </p>
+                <p>
+                    Talk to me about Chess, love to listen to Pink Floyd, either coding or sleeping, 
+                    and "Coincidence can be freaky".
+                </p>
+            </section>
+            <section>
+                <h2>skills</h2>
+                <p>
+                    C, C++, Python, PyTorch, Bash, Git, HTML, CSS, JavaScript, Bootstrap
+                </p>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+                <p>
+                    <form action="https://formspree.io/f/xqkwlevl" method="post">
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form> 
+                </p>
+
+
+
+
+
+
+            </section>
+        </div>
+        <div id="footer">
+            made on earth by a human <br> <a href="https://www.github.com/amnindersingh12">Amninder Singh</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
